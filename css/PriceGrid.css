@@ -11,7 +11,7 @@ body {
 .grid-container {
     border-radius: 6;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     width: 50%;
     position: absolute;
     top: 50%;
