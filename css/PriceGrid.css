@@ -16,6 +16,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translate(50%, -50%);
+    box-shadow: 5px 8px rgba(212, 211, 211, 0.2);
 }
 
 #item1 {
@@ -86,8 +87,17 @@ body {
     border-radius: 5px;
     width: 90%;
     margin-top: 40px;
+    box-shadow: 3px 6px 2px rgba(0,0,0,0.1);
 }
 
+#btn1:hover {
+    background-color: #b6d333;
+    cursor: pointer;
+}
+
+#btn1:active {
+    font-size: 17px;
+}
 #Heading2 {
     font-weight: 600;
     padding-bottom: 24px;
