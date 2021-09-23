@@ -7,6 +7,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-gap: 20px;
     position: absolute;
     width: 50%;
     top: 50%;
@@ -14,9 +15,21 @@
 }
 
 .grid-item {
-    border: 1px solid black;
+    border-radius: 6px;
+    border-collapse: collapse;
     text-align: center;
     vertical-align: middle;
     padding: 30px;
-    font-size: 50px;
+    font-size: 60px;
+    color: black;
+    font-weight: bolder;
+    height: 150px;
+    background-color: black;
+    box-shadow: 5px 8px 10px rgba(107, 105, 105, 0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.grid-item:hover {
+    color: white;
+    cursor: pointer;
 }
