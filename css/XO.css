@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #003566;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -21,18 +25,18 @@
     vertical-align: middle;
     padding: 30px;
     height: 150px;
-    background-color: black;
-    box-shadow: 5px 8px 10px rgba(107, 105, 105, 0.6);
+    background-color: #000814;
+    box-shadow: 5px 8px 10px rgba(114,76,249,0.7);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     vertical-align: middle;
     text-align: center;
     font-size: 60px;
-    color: black;
+    color: #000814;
     font-weight: bolder;
 }
 
 .grid-item:hover {
-    color: white;
+    color: #ffc300;
     cursor: pointer;
 }
 

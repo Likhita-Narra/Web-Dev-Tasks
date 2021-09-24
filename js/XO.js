@@ -47,7 +47,7 @@ function display(element) {
         else if (element == b8) {v8 = "O";}
         else if (element == b9) {v9 = "O";}
     }
-    element.style.color = "white";
+    element.style.color = "#ffc300";
     element.style.cursor = "not-allowed";
     element.classList.add("noHover");
     count++;
