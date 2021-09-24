@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #message {
+            width: 30%;
+            font-size: 50px;
+            padding: 30px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            border-radius: 6px;
+            margin: 12% auto 0px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        button {
+            width: 15%;
+            font-size: 20px;
+            padding: 10px;
+            font-weight: bold;
+            background-color: rgb(56, 55, 55);
+            color: white;
+            border-radius: 6px;
+            margin: 5% auto;
+            display: block;
+            text-align: center;
+            border: none;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: rgb(75, 73, 73);
+        }
+
+        button:active {
+            font-size: 21px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="message">
+        O Wins!
+    </div>
+    <button onclick="replay()">Replay</button>
+    <script>
+        function replay() {
+            window.open("./XO.html", "_self");
+        }
+    </script>
+</body>
+
+</html>

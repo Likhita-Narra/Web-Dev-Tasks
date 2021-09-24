@@ -69,47 +69,75 @@ function check() {
         b1.classList.add("winner");
         b2.classList.add("winner");
         b3.classList.add("winner");
+
+        if (v1=="X") {window.open("../html/Xwin.html", "_self");}
+        else if (v1=="O") {window.open("../html/Owin.html", "_self");}
     }  
     
     else if ((v4 == "X" && v5 == "X" && v6 == "X") || (v4 == "O" && v5 == "O" && v6 == "O")) {
         b4.classList.add("winner");
         b5.classList.add("winner");
         b6.classList.add("winner");
+
+        if (v4=="X") {window.open("../html/Xwin.html", "_self");}
+        else if (v4=="O") {window.open("../html/Owin.html", "_self");}
     }
     
     else if ((v7 == "X" && v8 == "X" && v9 == "X") || (v7 == "O" && v8 == "O" && v9 == "O")) {
         b7.classList.add("winner");
         b8.classList.add("winner");
         b9.classList.add("winner");
+
+        if (v7=="X") {window.open("../html/Xwin.html", "_self");}
+        else if (v7=="O") {window.open("../html/Owin.html", "_self");}
     }
 
     else if ((v1 == "X" && v4 == "X" && v7 == "X") || (v1 == "O" && v4 == "O" && v7 == "O")) {
         b1.classList.add("winner");
         b4.classList.add("winner");
         b7.classList.add("winner");
+
+        if (v1=="X") {window.open("../html/Xwin.html", "_self");}
+        else if (v1=="O") {window.open("../html/Owin.html", "_self");}
     }
     
     else if ((v2 == "X" && v5 == "X" && v8 == "X") || (v2 == "O" && v5 == "O" && v8 == "O")) {
         b2.classList.add("winner");
         b5.classList.add("winner");
         b8.classList.add("winner");
+
+        if (v2=="X") {window.open("../html/Xwin.html", "_self");}
+        else if (v2=="O") {window.open("../html/Owin.html", "_self");}
     }
 
     else if ((v3 == "X" && v6 == "X" && v9 == "X") || (v3 == "O" && v6 == "O" && v9 == "O")) {
         b3.classList.add("winner");
         b6.classList.add("winner");
         b9.classList.add("winner");
+
+        if (v3=="X") {window.open("../html/Xwin.html", "_self");}
+        else if (v3=="O") {window.open("../html/Owin.html", "_self");}
     }
 
     else if ((v1 == "X" && v5 == "X" && v9 == "X") || (v1 == "O" && v5 == "O" && v9 == "O")) {
         b1.classList.add("winner");
         b5.classList.add("winner");
         b9.classList.add("winner");
+
+        if (v1=="X") {window.open("../html/Xwin.html", "_self");}
+        else if (v1=="O") {window.open("../html/Owin.html", "_self");}
     }
 
     else if ((v3 == "X" && v5 == "X" && v7 == "X") || (v3 == "O" && v5 == "O" && v7 == "O")) {
         b3.classList.add("winner");
         b5.classList.add("winner");
         b7.classList.add("winner");
-    }      
+
+        if (v3=="X") {window.open("../html/Xwin.html", "_self");}
+        else if (v3=="O") {window.open("../html/Owin.html", "_self");}
+    } 
+    
+    else if (count == 9) {
+        window.open("../html/draw.html", "_self");
+    }
 }
