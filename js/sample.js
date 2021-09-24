@@ -10,3 +10,7 @@ function change() {
 function change2() {
     document.write(count);
 }
+
+function colorChange() {
+    document.getElementById("block").classList.add("color");
+}
