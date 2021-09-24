@@ -70,8 +70,8 @@ function check() {
         b2.classList.add("winner");
         b3.classList.add("winner");
 
-        if (v1=="X") {window.open("../html/Xwin.html", "_self");} 
-        else if (v1=="O") {window.open("../html/Owin.html", "_self");}
+        if (v1=="X") {setTimeout(() => {window.open("../html/Xwin.html", "_self");}, 1000);} 
+        else if (v1=="O") {setTimeout(() => {window.open("../html/Owin.html", "_self");}, 1000);}
     }  
     
     else if ((v4 == "X" && v5 == "X" && v6 == "X") || (v4 == "O" && v5 == "O" && v6 == "O")) {
@@ -79,8 +79,8 @@ function check() {
         b5.classList.add("winner");
         b6.classList.add("winner");
 
-        if (v4=="X") {window.open("../html/Xwin.html", "_self");}
-        else if (v4=="O") {window.open("../html/Owin.html", "_self");}
+        if (v4=="X") {setTimeout(() => {window.open("../html/Xwin.html", "_self");}, 1000);} 
+        else if (v4=="O") {setTimeout(() => {window.open("../html/Owin.html", "_self");}, 1000);}
     }
     
     else if ((v7 == "X" && v8 == "X" && v9 == "X") || (v7 == "O" && v8 == "O" && v9 == "O")) {
@@ -88,8 +88,8 @@ function check() {
         b8.classList.add("winner");
         b9.classList.add("winner");
 
-        if (v7=="X") {window.open("../html/Xwin.html", "_self");}
-        else if (v7=="O") {window.open("../html/Owin.html", "_self");}
+        if (v7=="X") {setTimeout(() => {window.open("../html/Xwin.html", "_self");}, 1000);} 
+        else if (v7=="O") {setTimeout(() => {window.open("../html/Owin.html", "_self");}, 1000);}
     }
 
     else if ((v1 == "X" && v4 == "X" && v7 == "X") || (v1 == "O" && v4 == "O" && v7 == "O")) {
@@ -97,8 +97,8 @@ function check() {
         b4.classList.add("winner");
         b7.classList.add("winner");
 
-        if (v1=="X") {window.open("../html/Xwin.html", "_self");}
-        else if (v1=="O") {window.open("../html/Owin.html", "_self");}
+        if (v1=="X") {setTimeout(() => {window.open("../html/Xwin.html", "_self");}, 1000);} 
+        else if (v1=="O") {setTimeout(() => {window.open("../html/Owin.html", "_self");}, 1000);}
     }
     
     else if ((v2 == "X" && v5 == "X" && v8 == "X") || (v2 == "O" && v5 == "O" && v8 == "O")) {
@@ -106,8 +106,8 @@ function check() {
         b5.classList.add("winner");
         b8.classList.add("winner");
 
-        if (v2=="X") {window.open("../html/Xwin.html", "_self");}
-        else if (v2=="O") {window.open("../html/Owin.html", "_self");}
+        if (v2=="X") {setTimeout(() => {window.open("../html/Xwin.html", "_self");}, 1000);} 
+        else if (v2=="O") {setTimeout(() => {window.open("../html/Owin.html", "_self");}, 1000);}
     }
 
     else if ((v3 == "X" && v6 == "X" && v9 == "X") || (v3 == "O" && v6 == "O" && v9 == "O")) {
@@ -115,8 +115,8 @@ function check() {
         b6.classList.add("winner");
         b9.classList.add("winner");
 
-        if (v3=="X") {window.open("../html/Xwin.html", "_self");}
-        else if (v3=="O") {window.open("../html/Owin.html", "_self");}
+        if (v3=="X") {setTimeout(() => {window.open("../html/Xwin.html", "_self");}, 1000);} 
+        else if (v3=="O") {setTimeout(() => {window.open("../html/Owin.html", "_self");}, 1000);}
     }
 
     else if ((v1 == "X" && v5 == "X" && v9 == "X") || (v1 == "O" && v5 == "O" && v9 == "O")) {
@@ -124,8 +124,8 @@ function check() {
         b5.classList.add("winner");
         b9.classList.add("winner");
 
-        if (v1=="X") {window.open("../html/Xwin.html", "_self");}
-        else if (v1=="O") {window.open("../html/Owin.html", "_self");}
+        if (v1=="X") {setTimeout(() => {window.open("../html/Xwin.html", "_self");}, 1000);} 
+        else if (v1=="O") {setTimeout(() => {window.open("../html/Owin.html", "_self");}, 1000);}
     }
 
     else if ((v3 == "X" && v5 == "X" && v7 == "X") || (v3 == "O" && v5 == "O" && v7 == "O")) {
@@ -133,11 +133,11 @@ function check() {
         b5.classList.add("winner");
         b7.classList.add("winner");
 
-        if (v3=="X") {window.open("../html/Xwin.html", "_self");}
-        else if (v3=="O") {window.open("../html/Owin.html", "_self");}
+        if (v3=="X") {setTimeout(() => {window.open("../html/Xwin.html", "_self");}, 1000);} 
+        else if (v3=="O") {setTimeout(() => {window.open("../html/Owin.html", "_self");}, 1000);}
     } 
     
     else if (count == 9) {
-        window.open("../html/draw.html", "_self");
+        setTimeout(() => {window.open("../html/draw.html", "_self");}, 1000);
     }
 }
