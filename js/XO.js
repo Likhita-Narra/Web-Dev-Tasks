@@ -10,18 +10,25 @@ v7 = document.getElementById("v7").innerHTML;
 v8 = document.getElementById("v8").innerHTML;
 v9 = document.getElementById("v9").innerHTML;
 
-function highlight(element) {
-    if (element.value == null) {
-        var flag = "X";
-        element.value = flag;
-    }
+z = document.getElementById("test").innerHTML = 0;
 
-    if (flag == "X") {
-        flag == "O";
-    }
+var count = 0;
 
-    else if (flag == "O") {
-        flag = "X";
-    }
+function display(element) {
     element.style.color = "white";
+    element.style.cursor = "not-allowed";
+    count++;
+    z = count;
+}
+
+function reveal(element) {
+    if (int(z)%2 == 0) {
+        element.innerHTML = "X";
+        element.style.color = "white";
+    }
+
+    else if (int(z)%2 != 0) {
+        element.innerHTML = "O";
+        element.style.color = "white";
+    }
 }
