@@ -70,7 +70,7 @@ function check() {
         b2.classList.add("winner");
         b3.classList.add("winner");
 
-        if (v1=="X") {window.open("../html/Xwin.html", "_self");}
+        if (v1=="X") {window.open("../html/Xwin.html", "_self");} 
         else if (v1=="O") {window.open("../html/Owin.html", "_self");}
     }  
     
