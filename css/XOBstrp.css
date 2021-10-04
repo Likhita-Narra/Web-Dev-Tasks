@@ -1,0 +1,25 @@
+body {
+    background-color: #003566;
+}
+
+.row {
+    text-align: center;
+    color: #c7ceda;
+    background-color: #000814;
+}
+
+#board {
+    /* top: 50%;
+    transform: translate(0,50%); */
+    margin: 5% auto;
+    width: 50%;
+    display: grid;
+    grid-gap: 20px 20px;
+}
+
+.col {
+    padding: 30px;
+    font-size: 60px;
+    font-weight: bolder;
+    border-radius: 6px;
+}
